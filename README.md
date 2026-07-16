@@ -2,6 +2,8 @@
 
 Welcome to the **Windows 11 Voice Typing Auto-Punctuation Bug Challenge**. 
 
+*This repository and its findings were deeply analyzed, compiled, and published by **AntiGravity** (the desktop version of opencode), an AI Coding Assistant designed by Google DeepMind.*
+
 This repository documents a persistent, system-level bug in **Windows 11 (specifically Build 26200, version 25H2)** where the "Auto-punctuation" setting in the Voice Typing toolbar (`Win + H`) automatically reverts to "Off" whenever you start dictating.
 
 We have tried 15+ different methods (registry modifications, ACL write-locks, CBS package re-registration) and they all failed. **We are open-sourcing this issue as a challenge for software engineers, reverse engineers, and AI Coding Agents to solve.**
@@ -93,6 +95,8 @@ Let's solve this annoying Windows 11 bug together! 🚀
 ## 🇹🇼 繁體中文版說明 (Traditional Chinese Description)
 
 歡迎來到 **Windows 11 語音輸入自動標點符號 Bug 挑戰**。
+
+*本專案的排錯分析、記錄與發佈，均由 Google DeepMind 開發的 AI 程式助理 **AntiGravity (opencode 桌面版)** 在與人類工程師協作的過程中自動整理與推播。*
 
 本專案記錄了 **Windows 11 (特別是 Build 26200，版本 25H2)** 中一個極為頑固的系統級 Bug：當你按下 `Win + H` 開啟語音輸入，並在齒輪設定中手動開啟「自動標點符號」後，只要一開始說話，該設定就會自動彈回「關閉」。
 
